@@ -136,21 +136,24 @@ body{
 
 
 #box1{
+    display: flex;
     color: #070707;
-    /* border: 1px solid rgba(000, 000, 000, 00.1);
-    border-radius: 2vh; */
+    /* border: 1px solid rgba(000, 000, 000, 00.1); */
+    border-radius: 2vh;
+    width: auto ;
+    height: 30vh auto;
+    padding: 2vh;
+    margin: 5vh 0 0 4vh;
+}
+#box2{
+    display: flex;
+    color: #070707;
+    /* border: 1px solid rgba(000, 000, 000, 00.1); */
+    border-radius: 2vh;
     width: auto ;
     height: 30vh auto;
     padding: 2vh;
     margin: 4vh;
-}
-#box2{
-    color: #070707;
-    /* border: 1px solid black; */
-    width: auto ;
-    height: 30vh auto;
-    padding: 2vh;
-    margin: 4vh
 }
 #box3{
     display: flex;
@@ -201,9 +204,13 @@ body{
     height: 4vh;
 }
 #box9{
-    border: 1px solid black;
-    width: auto ;
+    border: 1px solid rgba(000, 000, 000, 00.1) ;;
+    width:100vh auto  ;
     height: 20vh;
+    margin: 2vh;
+    margin-left: 0;
+    border-left:none ;
+    border-right:none ;
 }
 #box10{
     display: flex;
@@ -250,6 +257,7 @@ body{
     /* border: 1px solid black; */
     margin: 1vh;
     display: flex;
+
   
 }
 .daily1{
@@ -270,19 +278,39 @@ body{
     border-bottom-right-radius:2vh ;
 
 }
-.popular {
+
+
+
+
+
+/* .popular {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    /* margin: 1vh;     */
-}
-.work{
-    /* margin:2vh;     */
+    border: 1px solid black; 
+    margin: 1vh;    
+} */
+/* .work{
+    margin:2vh;
     margin-left: 2vh;
     border: 1px solid black;
     width: 33vh;
     height: 45vh;
-}
+    padding: 0;
+} */
+/* .work-word{
+    margin:2vh;
+    margin: 0 4vh  4vh 4vh;
+    border: 1px solid black;
+    width: 33vh;
+    height: 20vh;
+    padding: 2vh;
+} */
+
+
+
+
+
+
 .recent{
     display: flex;
     flex-direction: row;
@@ -305,10 +333,13 @@ body{
     width: 30vh;
 }
 .socialmedia{
-    margin:2vh;    
+    padding: 2.8vh 0 0 0;
+    display: flex;
+    color: #070707;
+    margin:5vh 0 5vh 0;    
     border: 1px solid black;
-    width: 30vh;
-}
+    width: 100vh inherit;
+}*/
 
 .items1{
     margin:2vh;    
@@ -340,20 +371,23 @@ body{
 
 
 .weding-img img{
-    width: 27vh inherit;
+    width: auto;
     height: 20vh;
     padding: 1vh;
+    margin-left: 1vh;
 }
 .weding-container{
     color: #070707;
     border: 1px solid rgba(000, 000, 090, 00.2);
     border-radius: 2vh;
     padding: 2vh;
-    width: 49%;
+    width: 90vh;
 }
 #wedding-text{
     text-align: center;
 }
+
+
 .daily1{
     /* border: 2px solid rgba(000, 000, 090, 00.2); */
     display: flex;
@@ -401,7 +435,22 @@ body{
 .daily2-22{
     display: flex;
 }
-
+#sbutton{
+    margin:0 .1vh 0 1vh;
+    border-radius: 2vh;
+}
+#sbutton button{
+    border-radius: 2.9rem;
+    border: none;
+    width: 5vh;
+    height: 5vh;
+}
+#sbutton img{
+    max-width: 4.5vh;
+}
+.socialmedia p{
+    margin-top: 1vh;
+}
 
 
 
