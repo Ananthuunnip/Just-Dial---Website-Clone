@@ -76,10 +76,6 @@ body{
 
 
 #nav2{
-    
-    /* margin-top: ; */
-    /* margin: 12vh 0 0 0; */
-    /* width:90% ; */
     height: 100% auto;
     background-color: #ffffff;
 
@@ -135,6 +131,8 @@ body{
 
 
 
+
+
 #box1{
     display: flex;
     color: #070707;
@@ -148,7 +146,7 @@ body{
 #box2{
     display: flex;
     color: #070707;
-    /* border: 1px solid rgba(000, 000, 000, 00.1); */
+    /* border: 1px solid black; */
     border-radius: 2vh;
     width: auto ;
     height: 30vh auto;
@@ -254,11 +252,8 @@ body{
 
 
 .wedding{
-    /* border: 1px solid black; */
     margin: 1vh;
     display: flex;
-
-  
 }
 .daily1{
     
@@ -266,8 +261,6 @@ body{
     border: 1px solid rgba(000, 000, 090, 00.2);
     border-top-left-radius:2vh ;
     border-top-right-radius:2vh ;
-    
-    
 }
 .daily2{
     
@@ -276,35 +269,31 @@ body{
     border-top:none ;
     border-bottom-left-radius:2vh ;
     border-bottom-right-radius:2vh ;
-
 }
 
 
 
 
 
-/* .popular {
+.popular {
     display: flex;
     flex-direction: row;
-    border: 1px solid black; 
+    border: 1px solid rgb(182, 22, 22); 
     margin: 1vh;    
-} */
-/* .work{
+}
+.work1{
     margin:2vh;
     margin-left: 2vh;
-    border: 1px solid black;
     width: 33vh;
     height: 45vh;
-    padding: 0;
-} */
-/* .work-word{
-    margin:2vh;
+}
+.work-word{
     margin: 0 4vh  4vh 4vh;
     border: 1px solid black;
     width: 33vh;
     height: 20vh;
     padding: 2vh;
-} */
+}
 
 
 
@@ -339,8 +328,7 @@ body{
     margin:5vh 0 5vh 0;    
     border: 1px solid black;
     width: 100vh inherit;
-}*/
-
+}
 .items1{
     margin:2vh;    
     border: 1px solid black;
@@ -388,6 +376,8 @@ body{
 }
 
 
+
+
 .daily1{
     /* border: 2px solid rgba(000, 000, 090, 00.2); */
     display: flex;
@@ -404,9 +394,9 @@ body{
 
 
 
+
 /* <!-- inside the div 2 --> */
 #small-box1{
-    /* background-color: #45a049; */
     margin-top: 4.5vh;
     margin-left:3vh;
     font-size: 2vh;
@@ -431,6 +421,8 @@ body{
 
 }
 /* <!-- inside the div 2 --> */
+
+
 
 .daily2-22{
     display: flex;
@@ -491,7 +483,6 @@ body{
 .tab-img:hover{
     background-color: #ffffff;
     box-shadow:2px 2px 10px 10px rgba(89, 89, 89, 0.2);
-
     display: flex;
     justify-content: center;
     border: 2px solid rgba(000, 000, 000, 00.5);
@@ -510,7 +501,6 @@ body{
 
 }
 #small-box{
-    /* background-color: #45a049; */
     margin-left:3vh;
     display: flex;
     justify-content: center;
@@ -520,21 +510,8 @@ body{
 }
 #main-small-box{
     margin: 0 0 0 1vh;
-    /* height: 40vh auto; */
-}
-/* #after-first-tab{
-    display: flex;
-    flex-direction: row;
-    height:15vh;
-    padding: 3vh 5vh 5vh 1vh;
 
 }
-#after-second-tab{
-    display: flex;
-    flex-direction: row;
-    height:10vh;
-    padding: 3vh 5vh 5vh 1vh;
-} */
 
 
 
@@ -553,16 +530,6 @@ body{
 
 
 
-/* #after-two{
-    background-color: #c90909;
-    width: 100%;
-    height: 100vh;
-}
-#after-three{
-    background-color: #b685e7;
-    width: 100%;
-    height: 100vh;
-} */
 a{
     color: black;
     text-decoration: none;
