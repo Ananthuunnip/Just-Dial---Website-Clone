@@ -158,9 +158,9 @@ body{
     flex-direction: column;
     color: #070707;
     /* border: 1px solid black; */
-    width: auto ;
+    width: 96.6% ;
     height: 70vh auto;
-    margin: 4vh
+    margin: 5vh 0 0 5vh;
 }
 #box4{
     color: #070707;
@@ -256,7 +256,6 @@ body{
     display: flex;
 }
 .daily1{
-    
     margin:2vh 3vh 0 0 ;    
     border: 1px solid rgba(000, 000, 090, 00.2);
     border-top-left-radius:2vh ;
@@ -278,21 +277,30 @@ body{
 .popular {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(182, 22, 22); 
+    /* border: 1px solid rgb(182, 22, 22);  */
     margin: 1vh;    
 }
 .work1{
-    margin:2vh;
+    /* margin:0.5vh; */
+    /* border: 2px solid black; */
     margin-left: 2vh;
     width: 33vh;
-    height: 45vh;
+    height: 30vh;
 }
 .work-word{
-    margin: 0 4vh  4vh 4vh;
+    margin: 0 0  2vh 2vh;
     border: 1px solid black;
     width: 33vh;
-    height: 20vh;
+    height: 12vh;
     padding: 2vh;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+}
+.work1 img{
+    padding:0 ;
+    height: 30vh;
+    width: 50vh;
+
 }
 
 
@@ -326,7 +334,7 @@ body{
     display: flex;
     color: #070707;
     margin:5vh 0 5vh 0;    
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100vh inherit;
 }
 .items1{
@@ -400,7 +408,7 @@ body{
     margin-top: 4.5vh;
     margin-left:3vh;
     font-size: 2vh;
-    width: 19vh;
+    width: 19vh auto;
     height: 23vh;
 }
 .tab-img1{
